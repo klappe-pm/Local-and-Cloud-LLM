@@ -111,7 +111,7 @@ This project follows security best practices:
 
 ## 📝 License
 
-[Your License Here]
+MIT License - See [LICENSE](LICENSE) file for details
 
 ## 👤 Author
 
