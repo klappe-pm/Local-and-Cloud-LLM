@@ -1,0 +1,138 @@
+# ========================================
+# SECURITY CRITICAL - NEVER COMMIT THESE
+# ========================================
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+!example.env
+load_env.sh
+
+# API Keys and credentials
+*api_key*
+*apikey*
+*.key
+*.pem
+*.cert
+*.secret
+*credentials*
+*token*
+secrets/
+Keys/
+
+# Configuration with potential secrets
+config.json
+config.local.json
+settings.local.json
+claude_desktop_config.json*
+
+# ========================================
+# AI/ML SPECIFIC
+# ========================================
+
+# Model files (often large)
+*.ckpt
+*.h5
+*.pkl
+*.pt
+*.pth
+*.safetensors
+*.bin
+models/
+checkpoints/
+weights/
+
+# Ollama models
+.ollama/
+ollama_models/
+
+# ========================================
+# OBSIDIAN
+# ========================================
+
+# Ignore entire .obsidian folder
+.obsidian/
+
+# If you want to track some Obsidian configs, use:
+# !.obsidian/app.json
+# !.obsidian/appearance.json
+# But exclude workspace and cache files:
+# .obsidian/workspace.json
+# .obsidian/workspace-mobile.json
+# .obsidian/plugins/*/data.json
+# .obsidian/cache
+
+# Obsidian trash
+.trash/
+
+# ========================================
+# IDE & EDITORS
+# ========================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Vim/Emacs
+*.swp
+*~
+\#*\#
+
+# ========================================
+# OS FILES
+# ========================================
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# ========================================
+# LOGS & TEMP
+# ========================================
+
+# Logs
+*.log
+logs/
+*.log.*
+mcp-servers.log
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+tmp/
+temp/
+
+# ========================================
+# LOCAL DEVELOPMENT
+# ========================================
+
+# Local configs
+*.local
+local_settings.*
+*.local.sh
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+local.db
+
+# Cache
+.cache/
+__pycache__/
