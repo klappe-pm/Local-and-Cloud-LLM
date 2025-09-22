@@ -79,8 +79,8 @@ ollama pull qwen2.5-coder:32b  # Large model - 19GB
 
 ## 📚 Documentation
 
-- **[API Setup Instructions](Model%20API/API_SETUP_INSTRUCTIONS.md)**: Complete setup guide
-- **[Available Models](Model%20API/Models.md)**: Model reference and selection guide
+- **[API Setup Instructions](API%20Key%20Set-up%20Guide.md)**: Complete setup guide
+- **[Available Models](Models.md)**: Model reference and selection guide
 - **[Repository Structure](diagrams/repository-structure.md)**: Complete folder and file organization
 
 ## 🔒 Security

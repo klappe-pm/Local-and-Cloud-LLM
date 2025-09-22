@@ -5,16 +5,15 @@
 ### GitHub Repository Structure (Public)
 ```
 Local-and-Cloud-LLM/
+├── changelog/
+│   └── Requirements Changelog.md
 ├── diagrams/
 │   └── repository-structure.md
 ├── github/
 │   ├── GITHUB_PUSH_INSTRUCTIONS.md
 │   └── scripts/
-│       └── github-setup.sh
-├── Model API/
-│   ├── API_SETUP_INSTRUCTIONS.md
-│   ├── Models.md
-│   └── README.md
+│       ├── github-setup.sh
+│       └── load_env.sh
 ├── orchestrator/
 │   ├── __init__.py
 │   ├── agents/
@@ -23,6 +22,10 @@ Local-and-Cloud-LLM/
 │   ├── executors/
 │   ├── router/
 │   └── templates/
+├── requirements/
+│   ├── Ad Hoc Requirements.md
+│   └── prd/
+│       └── PRD-Requirements Change Tracking Automation.md
 ├── src/
 │   ├── api/
 │   ├── data/
@@ -39,40 +42,47 @@ Local-and-Cloud-LLM/
 ```
 Local-and-Cloud-LLM/
 ├── .claude/
+│   └── settings.local.json
 ├── .trash/
-│   └── scripts/
-├── 0-Inbox/
-├── 1-Tasks/
-├── 2-Roadmap/
-├── config/
+│   ├── cloud/
+│   ├── features/
+│   ├── notes/
+│   ├── outputs/
+│   ├── scripts/
+│   ├── x-Templates/
+│   └── z-Meta/
+├── changelog/
+│   └── Requirements Changelog.md
+├── config/                    # EMPTY FOLDER
 ├── diagrams/
 │   └── repository-structure.md
-├── docker/
+├── docker/                    # EMPTY FOLDER
 ├── github/
 │   ├── GITHUB_PUSH_INSTRUCTIONS.md
 │   └── scripts/
-│       └── github-setup.sh
-├── Model API/
-│   ├── API_SETUP_INSTRUCTIONS.md
-│   ├── Models.md
-│   └── README.md
+│       ├── github-setup.sh
+│       └── load_env.sh
 ├── orchestrator/
 │   ├── __init__.py
-│   ├── agents/
+│   ├── agents/                # EMPTY FOLDER
 │   ├── decomposer/
 │   │   └── prompt_analyzer.py
-│   ├── executors/
-│   ├── router/
-│   └── templates/
+│   ├── executors/             # EMPTY FOLDER
+│   ├── router/                # EMPTY FOLDER
+│   └── templates/             # EMPTY FOLDER
 ├── prompts/
-│   ├── examples/
-│   └── templates/
+│   ├── examples/              # EMPTY FOLDER
+│   └── templates/             # EMPTY FOLDER
+├── requirements/
+│   ├── Ad Hoc Requirements.md
+│   └── prd/
+│       └── PRD-Requirements Change Tracking Automation.md
 ├── src/
-│   ├── api/
-│   ├── data/
-│   ├── models/
-│   └── utils/
-├── tests/
+│   ├── api/                   # EMPTY FOLDER
+│   ├── data/                  # EMPTY FOLDER
+│   ├── models/                # EMPTY FOLDER
+│   └── utils/                 # EMPTY FOLDER
+├── tests/                     # EMPTY FOLDER
 ├── z-gitignore/               # EXCLUDED FROM GITHUB
 │   ├── architecture/
 │   │   └── SECRETS_MANAGEMENT.md
@@ -93,6 +103,7 @@ Local-and-Cloud-LLM/
 │   ├── x-Templates/
 │   ├── y-Archive/
 │   └── z-Meta/
+├── .DS_Store                  # OS FILE - SHOULD BE IGNORED
 ├── .env                       # LOCAL ONLY
 ├── .env.example
 ├── .gitignore

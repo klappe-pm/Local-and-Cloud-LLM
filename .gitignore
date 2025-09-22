@@ -64,6 +64,10 @@ config/
 docker/
 prompts/
 
+# Additional personal/local files
+settings.local.json
+*.local.json
+
 # ========================================
 # OBSIDIAN
 # ========================================
