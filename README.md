@@ -22,19 +22,11 @@ This repository contains configuration and documentation for managing multiple A
 
 ## 🗂 Project Structure
 
-```
-.
-├── API/                    # API documentation and setup instructions
-│   ├── API_SETUP_INSTRUCTIONS.md
-│   ├── Models.md          # Available models reference
-│   └── README.md          # API folder overview
-├── Requirements/          # Project requirements and guidelines
-│   └── GITIGNORE_REQUIREMENTS.md
-├── Keys/                  # Sensitive files (gitignored)
-├── .env                   # Environment variables (gitignored)
-├── load_env.sh           # Environment loader script (gitignored)
-└── README.md             # This file
-```
+See the complete repository structure documentation in the [diagrams folder](diagrams/repository-structure.md), which includes:
+- GitHub repository structure (public files)
+- Local development structure (complete)
+- File organization by category
+- Security and sync guidelines
 
 ## 🛠 Quick Setup
 
@@ -60,7 +52,7 @@ source ./load_env.sh
 
 Update MCP servers in Claude Desktop configuration:
 - Location: `~/Library/Application Support/Claude/claude_desktop_config.json`
-- See `API/API_SETUP_INSTRUCTIONS.md` for detailed configuration
+- See `Model API/API_SETUP_INSTRUCTIONS.md` for detailed configuration
 
 ### 4. Install Local Models (Optional)
 
@@ -87,9 +79,9 @@ ollama pull qwen2.5-coder:32b  # Large model - 19GB
 
 ## 📚 Documentation
 
-- **[API Setup Instructions](API/API_SETUP_INSTRUCTIONS.md)**: Complete setup guide
-- **[Available Models](API/Models.md)**: Model reference and selection guide
-- **[Git Ignore Requirements](Requirements/GITIGNORE_REQUIREMENTS.md)**: Security best practices
+- **[API Setup Instructions](Model%20API/API_SETUP_INSTRUCTIONS.md)**: Complete setup guide
+- **[Available Models](Model%20API/Models.md)**: Model reference and selection guide
+- **[Repository Structure](diagrams/repository-structure.md)**: Complete folder and file organization
 
 ## 🔒 Security
 
