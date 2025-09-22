@@ -48,6 +48,23 @@ weights/
 ollama_models/
 
 # ========================================
+# PERSONAL EXCLUDES
+# ========================================
+
+# Personal files and documentation
+z-gitignore/
+
+# Obsidian-specific project folders
+0-Inbox/
+1-Tasks/
+2-Roadmap/
+.claude/
+.trash/
+config/
+docker/
+prompts/
+
+# ========================================
 # OBSIDIAN
 # ========================================
 
